@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 import { profile } from "@/lib/content";
 import { siteHost } from "@/lib/site";
 
-export const alt = "Adão Elias — Técnico de TI, Suporte e Infraestrutura";
+export const alt = "Adão Elias — Consultor de TI, Suporte e Infraestrutura";
 
 export const size = {
   width: 1200,

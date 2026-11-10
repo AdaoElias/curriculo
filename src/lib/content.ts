@@ -2,8 +2,8 @@ export const profile = {
   name: "Adão José de Oliveira Elias",
   displayName: "Adão Elias",
   headline:
-    "Técnico de TI, Suporte e Infraestrutura, Instrutor de Informática e Coordenador Pedagógico",
-  shortHeadline: "Técnico de TI · Suporte e Infraestrutura",
+    "Consultor de TI, Suporte e Infraestrutura, Instrutor de Informática e Coordenador Pedagógico",
+  shortHeadline: "Consultor de TI · Suporte e Infraestrutura",
   location: "São Gonçalo – RJ",
   email: "adaoelias@hotmail.com",
   linkedin: "https://www.linkedin.com/in/adao-elias",

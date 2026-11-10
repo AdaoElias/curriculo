@@ -14,7 +14,7 @@ const personSchema = {
   "@type": "Person",
   name: profile.name,
   alternateName: profile.displayName,
-  jobTitle: "Técnico de TI, Suporte e Infraestrutura",
+  jobTitle: "Consultor de TI, Suporte e Infraestrutura",
   description: profile.about,
   email: `mailto:${profile.email}`,
   sameAs: [profile.linkedin, profile.github],

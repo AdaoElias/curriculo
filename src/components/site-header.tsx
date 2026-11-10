@@ -32,7 +32,7 @@ export function SiteHeader() {
               Adão Elias
             </span>
             <span className="mt-1 text-[11px] font-medium tracking-wide text-muted-foreground">
-              Técnico de TI
+              Consultor de TI
             </span>
           </span>
         </a>

@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   title: {
-    default: "Adão Elias — Técnico de TI, Suporte e Infraestrutura",
+    default: "Adão Elias — Consultor de TI, Suporte e Infraestrutura",
     template: "%s | Adão Elias",
   },
   description:
     "Currículo profissional de Adão José de Oliveira Elias: mais de 30 anos em TI, suporte e infraestrutura, 20 anos em coordenação pedagógica e experiência como instrutor de informática.",
   keywords: [
     "Adão Elias",
-    "técnico de TI",
+    "consultor de TI",
     "suporte e infraestrutura",
     "instrutor de informática",
     "coordenador pedagógico",
@@ -51,13 +51,13 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: "/",
     siteName: "Adão Elias",
-    title: "Adão Elias — Técnico de TI, Suporte e Infraestrutura",
+    title: "Adão Elias — Consultor de TI, Suporte e Infraestrutura",
     description:
       "Mais de 30 anos em TI, suporte e infraestrutura, coordenação pedagógica e formação de equipes.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Adão Elias — Técnico de TI, Suporte e Infraestrutura",
+    title: "Adão Elias — Consultor de TI, Suporte e Infraestrutura",
     description:
       "Mais de 30 anos em TI, suporte e infraestrutura, coordenação pedagógica e formação de equipes.",
   },
