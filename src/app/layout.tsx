@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
+import { siteUrl } from "@/lib/site";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,6 +18,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     default: "Adão Elias — Técnico de TI, Suporte e Infraestrutura",
     template: "%s | Adão Elias",
@@ -43,13 +49,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "profile",
     locale: "pt_BR",
+    url: "/",
     siteName: "Adão Elias",
     title: "Adão Elias — Técnico de TI, Suporte e Infraestrutura",
     description:
       "Mais de 30 anos em TI, suporte e infraestrutura, coordenação pedagógica e formação de equipes.",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Adão Elias — Técnico de TI, Suporte e Infraestrutura",
     description:
       "Mais de 30 anos em TI, suporte e infraestrutura, coordenação pedagógica e formação de equipes.",
